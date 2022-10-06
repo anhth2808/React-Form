@@ -141,7 +141,7 @@ class SignInComponent extends React.Component {
                   <CheckboxLabel>Remember me</CheckboxLabel>
                 </CheckboxContainer>
 
-                <SubmitButton type="submit" disabled={props.isSubmitting}/>
+                <SubmitButton type="submit" data-a={props.isSubmitting} disabled={props.isSubmitting}/>
               </SignInForm>
 
             )}
